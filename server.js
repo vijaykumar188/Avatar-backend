@@ -3,7 +3,7 @@ const cors = require('cors')
 const morgan = require('morgan')
 const mongoose = require('mongoose');
 const dotenv = require('dotenv')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 6000
 const images = require('./routes/uploadRoute')
 
 //Allow access to .env file
